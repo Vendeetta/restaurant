@@ -21,7 +21,7 @@ public class DirectorTablet {
         }
         System.out.println("Total - " + String.format(Locale.ENGLISH, "%.2f", total));
     }
-
+//написал коммент
     public void printCookWorkloading() {
         StatisticManager statisticManager = StatisticManager.getInstance();
         Map<String, Map<String, Integer>> cookWorkloadingMap = statisticManager.getCookWorkloadingMap();
